@@ -165,7 +165,7 @@ nav ul li a {
     margin: 0.5rem 0 1rem;
 
     overflow: hidden;
-    white-space: now-rap;
+    white-space: nowrap;
     width: 0;
     border-right: 3px solid var(--primaryTextColor);
     animation: typing 2s steps(16), blink 0.5s step-end infinite alternate;
@@ -179,6 +179,7 @@ from {
         width: 18ch;
 }
 
+}
 @keyframes blink {
 50% {
     border-color: transparent;
