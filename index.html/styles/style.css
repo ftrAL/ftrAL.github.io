@@ -163,6 +163,7 @@ nav ul li a {
     font-size: 3rem;
     font-weight: 700;
     margin: 0.5rem 0 1rem;
+    animation: typing 2s steps (22), blink 0.5s step-end infinite alternate
 }
 
 .hero-name span {
